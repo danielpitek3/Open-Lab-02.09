@@ -6,7 +6,7 @@ namespace Open_Lab_02._09
     {   
         public string ConcatName(string firstName, string lastName)
         {
-            string meno = firstName + " " + lastName;
+            string meno = lastName + " " + firstName;
             return meno;
         }
     }
